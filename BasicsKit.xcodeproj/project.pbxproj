@@ -12,6 +12,8 @@
 		6B050C6929A1108600498782 /* BasicsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B050C5B29A1108600498782 /* BasicsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B050C7429A1138A00498782 /* Int+asString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C7329A1138A00498782 /* Int+asString.swift */; };
 		6B050C7629A113C700498782 /* Int+asStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C7529A113C700498782 /* Int+asStringTests.swift */; };
+		6B050C7A29A116B900498782 /* Double+asString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C7929A116B900498782 /* Double+asString.swift */; };
+		6B050C7D29A116E100498782 /* Double+asStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C7C29A116E100498782 /* Double+asStringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		6B050C6229A1108600498782 /* BasicsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B050C7329A1138A00498782 /* Int+asString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+asString.swift"; sourceTree = "<group>"; };
 		6B050C7529A113C700498782 /* Int+asStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+asStringTests.swift"; sourceTree = "<group>"; };
+		6B050C7929A116B900498782 /* Double+asString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+asString.swift"; sourceTree = "<group>"; };
+		6B050C7C29A116E100498782 /* Double+asStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+asStringTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		6B050C5A29A1108600498782 /* BasicsKit */ = {
 			isa = PBXGroup;
 			children = (
+				6B050C7829A116AA00498782 /* Double */,
 				6B050C7229A1136900498782 /* Int */,
 				6B050C5B29A1108600498782 /* BasicsKit.h */,
 				6B050C5C29A1108600498782 /* BasicsKit.docc */,
@@ -83,6 +88,7 @@
 		6B050C6629A1108600498782 /* BasicsKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				6B050C7B29A116CF00498782 /* Double */,
 				6B050C7729A113CB00498782 /* Int */,
 			);
 			path = BasicsKitTests;
@@ -102,6 +108,22 @@
 				6B050C7529A113C700498782 /* Int+asStringTests.swift */,
 			);
 			path = Int;
+			sourceTree = "<group>";
+		};
+		6B050C7829A116AA00498782 /* Double */ = {
+			isa = PBXGroup;
+			children = (
+				6B050C7929A116B900498782 /* Double+asString.swift */,
+			);
+			path = Double;
+			sourceTree = "<group>";
+		};
+		6B050C7B29A116CF00498782 /* Double */ = {
+			isa = PBXGroup;
+			children = (
+				6B050C7C29A116E100498782 /* Double+asStringTests.swift */,
+			);
+			path = Double;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B050C7429A1138A00498782 /* Int+asString.swift in Sources */,
+				6B050C7A29A116B900498782 /* Double+asString.swift in Sources */,
 				6B050C5D29A1108600498782 /* BasicsKit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B050C7629A113C700498782 /* Int+asStringTests.swift in Sources */,
+				6B050C7D29A116E100498782 /* Double+asStringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
