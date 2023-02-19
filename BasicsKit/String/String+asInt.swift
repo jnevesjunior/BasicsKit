@@ -28,4 +28,3 @@ public extension String {
         Int64(self)
     }
 }
-

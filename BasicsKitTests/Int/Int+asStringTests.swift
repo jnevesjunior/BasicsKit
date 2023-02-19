@@ -28,5 +28,4 @@ final class IntAsStringTests: XCTestCase {
         let int64: Int64 = 104
         XCTAssertEqual(int64.asString, "104")
     }
-
 }

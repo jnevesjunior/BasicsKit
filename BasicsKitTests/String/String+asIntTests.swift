@@ -201,5 +201,4 @@ final class StringAsIntTests: XCTestCase {
         let int64MinorThanMax = "\(Int64.min)0"
         XCTAssertEqual(int64MinorThanMax.asInt64, nil)
     }
-
 }
