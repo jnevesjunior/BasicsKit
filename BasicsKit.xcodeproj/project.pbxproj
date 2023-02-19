@@ -20,6 +20,8 @@
 		6B050C8929A11B4E00498782 /* String+asIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C8829A11B4E00498782 /* String+asIntTests.swift */; };
 		6B050C8B29A1231600498782 /* String+asDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C8A29A1231600498782 /* String+asDouble.swift */; };
 		6B050C8D29A1231F00498782 /* String+asDoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C8C29A1231F00498782 /* String+asDoubleTests.swift */; };
+		6B050C9029A282B500498782 /* String+asFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C8F29A282B500498782 /* String+asFloat.swift */; };
+		6B050C9229A2835100498782 /* String+asFloatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C9129A2835100498782 /* String+asFloatTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6B050C8829A11B4E00498782 /* String+asIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+asIntTests.swift"; sourceTree = "<group>"; };
 		6B050C8A29A1231600498782 /* String+asDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+asDouble.swift"; sourceTree = "<group>"; };
 		6B050C8C29A1231F00498782 /* String+asDoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+asDoubleTests.swift"; sourceTree = "<group>"; };
+		6B050C8F29A282B500498782 /* String+asFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+asFloat.swift"; sourceTree = "<group>"; };
+		6B050C9129A2835100498782 /* String+asFloatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+asFloatTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				6B050C8A29A1231600498782 /* String+asDouble.swift */,
+				6B050C8F29A282B500498782 /* String+asFloat.swift */,
 				6B050C8529A11A6100498782 /* String+asInt.swift */,
 			);
 			path = String;
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				6B050C8C29A1231F00498782 /* String+asDoubleTests.swift */,
+				6B050C9129A2835100498782 /* String+asFloatTests.swift */,
 				6B050C8829A11B4E00498782 /* String+asIntTests.swift */,
 			);
 			path = String;
@@ -290,6 +296,7 @@
 				6B050C7A29A116B900498782 /* Double+asString.swift in Sources */,
 				6B050C5D29A1108600498782 /* BasicsKit.docc in Sources */,
 				6B050C8029A117BE00498782 /* Float+asString.swift in Sources */,
+				6B050C9029A282B500498782 /* String+asFloat.swift in Sources */,
 				6B050C8B29A1231600498782 /* String+asDouble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +310,7 @@
 				6B050C8D29A1231F00498782 /* String+asDoubleTests.swift in Sources */,
 				6B050C8929A11B4E00498782 /* String+asIntTests.swift in Sources */,
 				6B050C7D29A116E100498782 /* Double+asStringTests.swift in Sources */,
+				6B050C9229A2835100498782 /* String+asFloatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
