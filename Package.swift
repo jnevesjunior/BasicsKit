@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "BasicsKit",
     platforms: [
-        .iOS(.v12.4),
+        .iOS(.v12),
     ],
     products: [
         .library(name: "BasicsKit", targets: ["BasicsKit"]),
