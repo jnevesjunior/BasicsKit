@@ -12,6 +12,7 @@ public extension String {
         Float(self)
     }
     
+    @available(iOS 14.0, *)
     var asFloat16: Float16? {
         Float16(self)
     }

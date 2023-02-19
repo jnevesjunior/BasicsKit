@@ -13,6 +13,7 @@ public extension Float {
     }
 }
 
+@available(iOS 14.0, *)
 public extension Float16 {
     var asString: String {
         String(self)

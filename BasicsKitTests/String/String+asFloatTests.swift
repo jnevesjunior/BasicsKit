@@ -38,6 +38,7 @@ final class StringAsFloatTests: XCTestCase {
     
     // MARK: - Float16
     
+    @available(iOS 14.0, *)
     func testAsFloat16() {
         let emptyString: String = ""
         XCTAssertEqual(emptyString.asFloat16, nil)
