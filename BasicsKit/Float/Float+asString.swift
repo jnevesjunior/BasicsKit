@@ -8,6 +8,11 @@
 import Foundation
 
 public extension Float {
+    /// Returns a `String` initialized by converting self value
+    ///
+    ///     let value: Float = 21
+    ///     value.asString // "21.0"
+    ///
     var asString: String {
         String(self)
     }
@@ -15,6 +20,11 @@ public extension Float {
 
 @available(iOS 14.0, *)
 public extension Float16 {
+    /// Returns a `String` initialized by converting self value
+    ///
+    ///     let value: Float16 = 21
+    ///     value.asString // "21.0"
+    ///
     var asString: String {
         String(self)
     }

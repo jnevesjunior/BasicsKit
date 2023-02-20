@@ -8,6 +8,11 @@
 import Foundation
 
 public extension Double {
+    /// Returns a `String` initialized by converting self value
+    ///
+    ///     let value: Double = 21
+    ///     value.asString // "21.0"
+    ///
     var asString: String {
         String(self)
     }
