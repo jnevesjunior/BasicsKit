@@ -32,6 +32,8 @@
 		6B231C0729A3A3B1003AB518 /* Int+asFloatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0629A3A3B1003AB518 /* Int+asFloatTests.swift */; };
 		6B231C0929A3A455003AB518 /* Float+asDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0829A3A455003AB518 /* Float+asDouble.swift */; };
 		6B231C0B29A3A4A4003AB518 /* Float+asDoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0A29A3A4A4003AB518 /* Float+asDoubleTests.swift */; };
+		6B231C0D29A3A5F0003AB518 /* Float+asInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0C29A3A5F0003AB518 /* Float+asInt.swift */; };
+		6B231C0F29A3A63B003AB518 /* Float+asIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0E29A3A63B003AB518 /* Float+asIntTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		6B231C0629A3A3B1003AB518 /* Int+asFloatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+asFloatTests.swift"; sourceTree = "<group>"; };
 		6B231C0829A3A455003AB518 /* Float+asDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+asDouble.swift"; sourceTree = "<group>"; };
 		6B231C0A29A3A4A4003AB518 /* Float+asDoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+asDoubleTests.swift"; sourceTree = "<group>"; };
+		6B231C0C29A3A5F0003AB518 /* Float+asInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+asInt.swift"; sourceTree = "<group>"; };
+		6B231C0E29A3A63B003AB518 /* Float+asIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+asIntTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				6B231C0829A3A455003AB518 /* Float+asDouble.swift */,
+				6B231C0C29A3A5F0003AB518 /* Float+asInt.swift */,
 				6B050C7F29A117BE00498782 /* Float+asString.swift */,
 			);
 			path = Float;
@@ -187,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				6B231C0A29A3A4A4003AB518 /* Float+asDoubleTests.swift */,
+				6B231C0E29A3A63B003AB518 /* Float+asIntTests.swift */,
 				6B050C8229A117F100498782 /* Float+asStringTests.swift */,
 			);
 			path = Float;
@@ -328,6 +334,7 @@
 				6B050C7A29A116B900498782 /* Double+asString.swift in Sources */,
 				6B050C5D29A1108600498782 /* BasicsKit.docc in Sources */,
 				6B231BFD29A2FD0D003AB518 /* Double+asFloat.swift in Sources */,
+				6B231C0D29A3A5F0003AB518 /* Float+asInt.swift in Sources */,
 				6B050C8029A117BE00498782 /* Float+asString.swift in Sources */,
 				6B050C9029A282B500498782 /* String+asFloat.swift in Sources */,
 				6B231C0529A3A386003AB518 /* Int+asFloat.swift in Sources */,
@@ -344,6 +351,7 @@
 				6B050C7629A113C700498782 /* Int+asStringTests.swift in Sources */,
 				6B050C8D29A1231F00498782 /* String+asDoubleTests.swift in Sources */,
 				6B050C8929A11B4E00498782 /* String+asIntTests.swift in Sources */,
+				6B231C0F29A3A63B003AB518 /* Float+asIntTests.swift in Sources */,
 				6B231C0B29A3A4A4003AB518 /* Float+asDoubleTests.swift in Sources */,
 				6B050C7D29A116E100498782 /* Double+asStringTests.swift in Sources */,
 				6B050C9229A2835100498782 /* String+asFloatTests.swift in Sources */,
