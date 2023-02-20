@@ -36,7 +36,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsIntMax() {
         let intmax = "\(Int.max)"
-        XCTAssertEqual(intmax.asInt, 9223372036854775807)
+        XCTAssertEqual(intmax.asInt, Int.max)
         
         let intBiggerThanMax = "\(Int.max)1"
         XCTAssertEqual(intBiggerThanMax.asInt, nil)
@@ -44,7 +44,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsIntMin() {
         let intmin = "\(Int.min)"
-        XCTAssertEqual(intmin.asInt, -9223372036854775808)
+        XCTAssertEqual(intmin.asInt, Int.min)
         
         let intMinorThanMax = "\(Int.min)0"
         XCTAssertEqual(intMinorThanMax.asInt, nil)
@@ -74,7 +74,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt8Max() {
         let int8max = "\(Int8.max)"
-        XCTAssertEqual(int8max.asInt8, 127)
+        XCTAssertEqual(int8max.asInt8, Int8.max)
         
         let int8BiggerThanMax = "\(Int(Int8.max) + 1)"
         XCTAssertEqual(int8BiggerThanMax.asInt8, nil)
@@ -82,7 +82,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt8Min() {
         let int8min = "\(Int8.min)"
-        XCTAssertEqual(int8min.asInt8, -128)
+        XCTAssertEqual(int8min.asInt8, Int8.min)
         
         let int8MinorThanMax = "\(Int(Int8.min) - 1)"
         XCTAssertEqual(int8MinorThanMax.asInt8, nil)
@@ -112,7 +112,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt16Max() {
         let int16max = "\(Int16.max)"
-        XCTAssertEqual(int16max.asInt16, 32767)
+        XCTAssertEqual(int16max.asInt16, Int16.max)
         
         let int16BiggerThanMax = "\(Int(Int16.max) + 1)"
         XCTAssertEqual(int16BiggerThanMax.asInt16, nil)
@@ -120,7 +120,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt16Min() {
         let int16min = "\(Int16.min)"
-        XCTAssertEqual(int16min.asInt16, -32768)
+        XCTAssertEqual(int16min.asInt16, Int16.min)
         
         let int16MinorThanMax = "\(Int(Int16.min) - 1)"
         XCTAssertEqual(int16MinorThanMax.asInt16, nil)
@@ -150,7 +150,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt32Max() {
         let int32max = "\(Int32.max)"
-        XCTAssertEqual(int32max.asInt32, 2147483647)
+        XCTAssertEqual(int32max.asInt32, Int32.max)
         
         let int32BiggerThanMax = "\(Int(Int32.max) + 1)"
         XCTAssertEqual(int32BiggerThanMax.asInt32, nil)
@@ -158,7 +158,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt32Min() {
         let int32min = "\(Int32.min)"
-        XCTAssertEqual(int32min.asInt32, -2147483648)
+        XCTAssertEqual(int32min.asInt32, Int32.min)
         
         let int32MinorThanMax = "\(Int(Int32.min) - 1)"
         XCTAssertEqual(int32MinorThanMax.asInt32, nil)
@@ -188,7 +188,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt64Max() {
         let int64max = "\(Int64.max)"
-        XCTAssertEqual(int64max.asInt64, 9223372036854775807)
+        XCTAssertEqual(int64max.asInt64, Int64.max)
         
         let int64BiggerThanMax = "\(Int64.max)1"
         XCTAssertEqual(int64BiggerThanMax.asInt64, nil)
@@ -196,7 +196,7 @@ final class StringAsIntTests: XCTestCase {
     
     func testAsInt64Min() {
         let int64min = "\(Int64.min)"
-        XCTAssertEqual(int64min.asInt64, -9223372036854775808)
+        XCTAssertEqual(int64min.asInt64, Int64.min)
         
         let int64MinorThanMax = "\(Int64.min)0"
         XCTAssertEqual(int64MinorThanMax.asInt64, nil)
