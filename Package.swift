@@ -13,7 +13,11 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(name: "BasicsKit", path: "BasicsKit"),
-        .testTarget(name: "BasicsKitTests", dependencies: ["BasicsKit"]),
+        .testTarget(
+            name: "BasicsKitTests",
+            dependencies: ["BasicsKit"],
+            path: "BasicsKitTests"
+        ),
     ],
     swiftLanguageVersions: [
         .v5
