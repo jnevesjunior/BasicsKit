@@ -18,7 +18,7 @@ public extension Double {
             return nil
         }
         
-        return Int(self.rounded())
+        return Int(self)
     }
     
     /// Returns a `Int8` initialized by converting self value
