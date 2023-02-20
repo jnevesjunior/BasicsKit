@@ -24,6 +24,7 @@
 		6B050C9229A2835100498782 /* String+asFloatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B050C9129A2835100498782 /* String+asFloatTests.swift */; };
 		6B231BF929A2FA06003AB518 /* Double+asInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231BF829A2FA06003AB518 /* Double+asInt.swift */; };
 		6B231BFB29A2FA6E003AB518 /* Double+asIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231BFA29A2FA6E003AB518 /* Double+asIntTests.swift */; };
+		6B231BFD29A2FD0D003AB518 /* Double+asFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231BFC29A2FD0D003AB518 /* Double+asFloat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6B050C9129A2835100498782 /* String+asFloatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+asFloatTests.swift"; sourceTree = "<group>"; };
 		6B231BF829A2FA06003AB518 /* Double+asInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+asInt.swift"; sourceTree = "<group>"; };
 		6B231BFA29A2FA6E003AB518 /* Double+asIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+asIntTests.swift"; sourceTree = "<group>"; };
+		6B231BFC29A2FD0D003AB518 /* Double+asFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+asFloat.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		6B050C7829A116AA00498782 /* Double */ = {
 			isa = PBXGroup;
 			children = (
+				6B231BFC29A2FD0D003AB518 /* Double+asFloat.swift */,
 				6B231BF829A2FA06003AB518 /* Double+asInt.swift */,
 				6B050C7929A116B900498782 /* Double+asString.swift */,
 			);
@@ -302,6 +305,7 @@
 				6B231BF929A2FA06003AB518 /* Double+asInt.swift in Sources */,
 				6B050C7A29A116B900498782 /* Double+asString.swift in Sources */,
 				6B050C5D29A1108600498782 /* BasicsKit.docc in Sources */,
+				6B231BFD29A2FD0D003AB518 /* Double+asFloat.swift in Sources */,
 				6B050C8029A117BE00498782 /* Float+asString.swift in Sources */,
 				6B050C9029A282B500498782 /* String+asFloat.swift in Sources */,
 				6B050C8B29A1231600498782 /* String+asDouble.swift in Sources */,
