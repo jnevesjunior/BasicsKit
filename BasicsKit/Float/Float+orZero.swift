@@ -43,21 +43,3 @@ public extension Optional where Wrapped == Float16 {
         return value
     }
 }
-
-public extension Optional where Wrapped == Float64 {
-    /// Returns a value from `Float64` or zero when self is nill
-    ///
-    ///     let value: Float64? = 21
-    ///     value.orZero // 21.0
-    ///
-    ///     let value: Float64? = nil
-    ///     value.orZero // 0.0
-    ///
-    var orZero: Float64 {
-        guard let value = self else {
-            return 0.0
-        }
-        
-        return value
-    }
-}
