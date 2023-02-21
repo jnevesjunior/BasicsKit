@@ -6,10 +6,8 @@
 //
 
 import Foundation
-import Foundation
 
 public extension String {
-    
     /// Returns a new `String` without numbers from previous one
     ///
     ///     let value: String = "qwerty123"
