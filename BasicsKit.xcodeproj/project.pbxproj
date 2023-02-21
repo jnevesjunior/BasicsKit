@@ -44,6 +44,8 @@
 		6B69354529A565C8003AC72D /* Double+orZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69354429A565C8003AC72D /* Double+orZeroTests.swift */; };
 		6B69354729A569FE003AC72D /* String+onlyNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69354629A569FE003AC72D /* String+onlyNumbers.swift */; };
 		6B69354929A56AE2003AC72D /* String+onlyNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69354829A56AE1003AC72D /* String+onlyNumbers.swift */; };
+		6B69354B29A56C31003AC72D /* String+removeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69354A29A56C31003AC72D /* String+removeNumbers.swift */; };
+		6B69354D29A56C67003AC72D /* String+removeNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69354C29A56C67003AC72D /* String+removeNumbersTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		6B69354429A565C8003AC72D /* Double+orZeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+orZeroTests.swift"; sourceTree = "<group>"; };
 		6B69354629A569FE003AC72D /* String+onlyNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+onlyNumbers.swift"; sourceTree = "<group>"; };
 		6B69354829A56AE1003AC72D /* String+onlyNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+onlyNumbers.swift"; sourceTree = "<group>"; };
+		6B69354A29A56C31003AC72D /* String+removeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+removeNumbers.swift"; sourceTree = "<group>"; };
+		6B69354C29A56C67003AC72D /* String+removeNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+removeNumbersTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +236,7 @@
 				6B050C8529A11A6100498782 /* String+asInt.swift */,
 				6B69353629A55E80003AC72D /* String+orEmpty.swift */,
 				6B69354629A569FE003AC72D /* String+onlyNumbers.swift */,
+				6B69354A29A56C31003AC72D /* String+removeNumbers.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 				6B050C8829A11B4E00498782 /* String+asIntTests.swift */,
 				6B69353829A55FD4003AC72D /* String+orEmptyTests.swift */,
 				6B69354829A56AE1003AC72D /* String+onlyNumbers.swift */,
+				6B69354C29A56C67003AC72D /* String+removeNumbersTests.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -372,6 +378,7 @@
 				6B050C8029A117BE00498782 /* Float+asString.swift in Sources */,
 				6B050C9029A282B500498782 /* String+asFloat.swift in Sources */,
 				6B231C0529A3A386003AB518 /* Int+asFloat.swift in Sources */,
+				6B69354B29A56C31003AC72D /* String+removeNumbers.swift in Sources */,
 				6B050C8B29A1231600498782 /* String+asDouble.swift in Sources */,
 				6B231C0929A3A455003AB518 /* Float+asDouble.swift in Sources */,
 				6B69353F29A56350003AC72D /* Float+orZero.swift in Sources */,
@@ -383,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B050C8329A117F100498782 /* Float+asStringTests.swift in Sources */,
+				6B69354D29A56C67003AC72D /* String+removeNumbersTests.swift in Sources */,
 				6B050C7629A113C700498782 /* Int+asStringTests.swift in Sources */,
 				6B050C8D29A1231F00498782 /* String+asDoubleTests.swift in Sources */,
 				6B69354929A56AE2003AC72D /* String+onlyNumbers.swift in Sources */,
