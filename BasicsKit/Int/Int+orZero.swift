@@ -8,7 +8,7 @@
 import Foundation
 
 public extension Optional where Wrapped == Int {
-    /// Returns a `Float` initialized by converting self value
+    /// Returns a value from `Int` or zero when self is nill
     ///
     ///     let value: Int? = 21
     ///     value.orZero // 21
@@ -26,7 +26,7 @@ public extension Optional where Wrapped == Int {
 }
 
 public extension Optional where Wrapped == Int8 {
-    /// Returns a `Float` initialized by converting self value
+    /// Returns a value from `Int8` or zero when self is nill
     ///
     ///     let value: Int8? = 21
     ///     value.orZero // 21
@@ -44,7 +44,7 @@ public extension Optional where Wrapped == Int8 {
 }
 
 public extension Optional where Wrapped == Int16 {
-    /// Returns a `Float` initialized by converting self value
+    /// Returns a value from `Int16` or zero when self is nill
     ///
     ///     let value: Int16? = 21
     ///     value.orZero // 21
@@ -62,7 +62,7 @@ public extension Optional where Wrapped == Int16 {
 }
 
 public extension Optional where Wrapped == Int32 {
-    /// Returns a `Float` initialized by converting self value
+    /// Returns a value from `Int32` or zero when self is nill
     ///
     ///     let value: Int32? = 21
     ///     value.orZero // 21
@@ -80,7 +80,7 @@ public extension Optional where Wrapped == Int32 {
 }
 
 public extension Optional where Wrapped == Int64 {
-    /// Returns a `Float` initialized by converting self value
+    /// Returns a value from `Int64` or zero when self is nill
     ///
     ///     let value: Int64? = 21
     ///     value.orZero // 21
