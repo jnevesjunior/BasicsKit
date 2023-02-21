@@ -14,6 +14,9 @@ public extension Optional where Wrapped == String {
     ///     let value: String? = "text"
     ///     value.orEmpty // "text"
     ///
+    ///     let value: String? = nil
+    ///     value.orEmpty // ""
+    ///
     var orEmpty: String {
         guard let value = self else {
             return ""
