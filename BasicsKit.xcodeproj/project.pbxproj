@@ -38,6 +38,8 @@
 		6B69353929A55FD4003AC72D /* String+orEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69353829A55FD4003AC72D /* String+orEmptyTests.swift */; };
 		6B69353B29A56149003AC72D /* Int+orZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69353A29A56149003AC72D /* Int+orZero.swift */; };
 		6B69353D29A5627E003AC72D /* Int+orZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69353C29A5627E003AC72D /* Int+orZeroTests.swift */; };
+		6B69353F29A56350003AC72D /* Float+orZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69353E29A56350003AC72D /* Float+orZero.swift */; };
+		6B69354129A56445003AC72D /* Float+orZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69354029A56445003AC72D /* Float+orZeroTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		6B69353829A55FD4003AC72D /* String+orEmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+orEmptyTests.swift"; sourceTree = "<group>"; };
 		6B69353A29A56149003AC72D /* Int+orZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+orZero.swift"; sourceTree = "<group>"; };
 		6B69353C29A5627E003AC72D /* Int+orZeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+orZeroTests.swift"; sourceTree = "<group>"; };
+		6B69353E29A56350003AC72D /* Float+orZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+orZero.swift"; sourceTree = "<group>"; };
+		6B69354029A56445003AC72D /* Float+orZeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+orZeroTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +198,7 @@
 				6B231C0829A3A455003AB518 /* Float+asDouble.swift */,
 				6B231C0C29A3A5F0003AB518 /* Float+asInt.swift */,
 				6B050C7F29A117BE00498782 /* Float+asString.swift */,
+				6B69353E29A56350003AC72D /* Float+orZero.swift */,
 			);
 			path = Float;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				6B231C0A29A3A4A4003AB518 /* Float+asDoubleTests.swift */,
 				6B231C0E29A3A63B003AB518 /* Float+asIntTests.swift */,
 				6B050C8229A117F100498782 /* Float+asStringTests.swift */,
+				6B69354029A56445003AC72D /* Float+orZeroTests.swift */,
 			);
 			path = Float;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 				6B231C0529A3A386003AB518 /* Int+asFloat.swift in Sources */,
 				6B050C8B29A1231600498782 /* String+asDouble.swift in Sources */,
 				6B231C0929A3A455003AB518 /* Float+asDouble.swift in Sources */,
+				6B69353F29A56350003AC72D /* Float+orZero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +374,7 @@
 				6B050C8929A11B4E00498782 /* String+asIntTests.swift in Sources */,
 				6B231C0F29A3A63B003AB518 /* Float+asIntTests.swift in Sources */,
 				6B231C0B29A3A4A4003AB518 /* Float+asDoubleTests.swift in Sources */,
+				6B69354129A56445003AC72D /* Float+orZeroTests.swift in Sources */,
 				6B050C7D29A116E100498782 /* Double+asStringTests.swift in Sources */,
 				6B050C9229A2835100498782 /* String+asFloatTests.swift in Sources */,
 				6B69353929A55FD4003AC72D /* String+orEmptyTests.swift in Sources */,
