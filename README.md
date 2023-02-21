@@ -1,5 +1,9 @@
 # BasicsKit
 
+[![Platforms](https://img.shields.io/cocoapods/p/BasicsKit.svg?style=flat-square)](https://cocoapods.org/pods/BasicsKit)
+[![CocoaPods](https://img.shields.io/cocoapods/v/BasicsKit.svg?style=flat-square)](https://cocoapods.org/pods/BasicsKit)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+
 ## Installation
 
 ### Swift Package Manager
