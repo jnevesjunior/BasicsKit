@@ -4,6 +4,8 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/BasicsKit.svg?style=flat-square)](https://cocoapods.org/pods/BasicsKit)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
 
+![0.0.3](https://github.com/jnevesjunior/BasicsKit/raw/main/Doc/0.0.3.png)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
