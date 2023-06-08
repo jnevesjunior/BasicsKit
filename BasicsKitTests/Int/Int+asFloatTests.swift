@@ -25,6 +25,37 @@ final class IntAsFloatTests: XCTestCase {
         XCTAssertEqual(intMin.asFloat, Float(Int.min))
     }
     
+    // MARK: - Int as Float16
+    
+    @available(iOS 14.0, *)
+    func testIntAsFloat16() {
+        XCTAssertEqual(101.asFloat16, 101.0)
+        
+        XCTAssertEqual(Int.max.asFloat16, Float16(Int.max))
+        
+        XCTAssertEqual(Int.min.asFloat16, Float16(Int.min))
+    }
+    
+    // MARK: - Int as Float32
+    
+    func testIntAsFloat32() {
+        XCTAssertEqual(101.asFloat32, 101.0)
+        
+        XCTAssertEqual(Int.max.asFloat32, Float32(Int.max))
+        
+        XCTAssertEqual(Int.min.asFloat32, Float32(Int.min))
+    }
+    
+    // MARK: - Int as Float64
+    
+    func testIntAsFloat64() {
+        XCTAssertEqual(101.asFloat64, 101.0)
+        
+        XCTAssertEqual(Int.max.asFloat64, Float64(Int.max))
+        
+        XCTAssertEqual(Int.min.asFloat64, Float64(Int.min))
+    }
+    
     // MARK: - Int8
     
     func testInt8AsFloat() {
