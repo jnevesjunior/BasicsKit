@@ -29,7 +29,8 @@ final class IntAsFloatTests: XCTestCase {
     
     @available(iOS 14.0, *)
     func testIntAsFloat16() {
-        XCTAssertEqual(101.asFloat16, 101.0)
+        let int: Int = 101
+        XCTAssertEqual(int.asFloat16, 101.0)
         
         XCTAssertEqual(Int.max.asFloat16, Float16(Int.max))
         
@@ -39,7 +40,8 @@ final class IntAsFloatTests: XCTestCase {
     // MARK: - Int as Float32
     
     func testIntAsFloat32() {
-        XCTAssertEqual(101.asFloat32, 101.0)
+        let int: Int = 101
+        XCTAssertEqual(int.asFloat32, 101.0)
         
         XCTAssertEqual(Int.max.asFloat32, Float32(Int.max))
         
@@ -49,7 +51,8 @@ final class IntAsFloatTests: XCTestCase {
     // MARK: - Int as Float64
     
     func testIntAsFloat64() {
-        XCTAssertEqual(101.asFloat64, 101.0)
+        let int: Int = 101
+        XCTAssertEqual(int.asFloat64, 101.0)
         
         XCTAssertEqual(Int.max.asFloat64, Float64(Int.max))
         
@@ -67,6 +70,40 @@ final class IntAsFloatTests: XCTestCase {
         
         let int8Min = Int8.min
         XCTAssertEqual(int8Min.asFloat, Float(Int8.min))
+    }
+    
+    // MARK: - Int8 as Float16
+    
+    @available(iOS 14.0, *)
+    func testInt8AsFloat16() {
+        let int: Int8 = 101
+        XCTAssertEqual(int.asFloat16, 101.0)
+        
+        XCTAssertEqual(Int8.max.asFloat16, Float16(Int8.max))
+        
+        XCTAssertEqual(Int8.min.asFloat16, Float16(Int8.min))
+    }
+    
+    // MARK: - Int8 as Float32
+    
+    func testInt8AsFloat32() {
+        let int: Int8 = 101
+        XCTAssertEqual(int.asFloat32, 101.0)
+        
+        XCTAssertEqual(Int8.max.asFloat32, Float32(Int8.max))
+        
+        XCTAssertEqual(Int8.min.asFloat32, Float32(Int8.min))
+    }
+    
+    // MARK: - Int8 as Float64
+    
+    func testInt8AsFloat64() {
+        let int: Int8 = 101
+        XCTAssertEqual(int.asFloat64, 101.0)
+        
+        XCTAssertEqual(Int8.max.asFloat64, Float64(Int8.max))
+        
+        XCTAssertEqual(Int8.min.asFloat64, Float64(Int8.min))
     }
     
     // MARK: - Int16
