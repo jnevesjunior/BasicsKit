@@ -85,7 +85,7 @@ To integrate SnapKit into your Xcode project using Swift Package Manager, add it
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jnevesjunior/BasicsKit.git", .upToNextMajor(from: "0.0.2"))
+    .package(url: "https://github.com/jnevesjunior/BasicsKit.git", .upToNextMajor(from: "0.0.4"))
 ]
 ```
 
@@ -100,7 +100,7 @@ $ gem install cocoapods
 To integrate BasicsKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'BasicsKit', '~> 0.0.1'
+pod 'BasicsKit', '~> 0.0.4'
 ```
 
 Then, run the following command:
