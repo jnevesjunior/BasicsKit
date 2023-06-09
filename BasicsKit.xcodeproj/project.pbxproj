@@ -34,6 +34,8 @@
 		6B231C0B29A3A4A4003AB518 /* Float+asDoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0A29A3A4A4003AB518 /* Float+asDoubleTests.swift */; };
 		6B231C0D29A3A5F0003AB518 /* Float+asInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0C29A3A5F0003AB518 /* Float+asInt.swift */; };
 		6B231C0F29A3A63B003AB518 /* Float+asIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B231C0E29A3A63B003AB518 /* Float+asIntTests.swift */; };
+		6B23F1B42A339327005CAE71 /* String+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23F1B32A339327005CAE71 /* String+random.swift */; };
+		6B23F1B62A339561005CAE71 /* String+randomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23F1B52A339561005CAE71 /* String+randomTests.swift */; };
 		6B69353729A55E80003AC72D /* String+orEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69353629A55E80003AC72D /* String+orEmpty.swift */; };
 		6B69353929A55FD4003AC72D /* String+orEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69353829A55FD4003AC72D /* String+orEmptyTests.swift */; };
 		6B69353B29A56149003AC72D /* Int+orZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69353A29A56149003AC72D /* Int+orZero.swift */; };
@@ -87,6 +89,8 @@
 		6B231C0A29A3A4A4003AB518 /* Float+asDoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+asDoubleTests.swift"; sourceTree = "<group>"; };
 		6B231C0C29A3A5F0003AB518 /* Float+asInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+asInt.swift"; sourceTree = "<group>"; };
 		6B231C0E29A3A63B003AB518 /* Float+asIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+asIntTests.swift"; sourceTree = "<group>"; };
+		6B23F1B32A339327005CAE71 /* String+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+random.swift"; sourceTree = "<group>"; };
+		6B23F1B52A339561005CAE71 /* String+randomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+randomTests.swift"; sourceTree = "<group>"; };
 		6B69353629A55E80003AC72D /* String+orEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+orEmpty.swift"; sourceTree = "<group>"; };
 		6B69353829A55FD4003AC72D /* String+orEmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+orEmptyTests.swift"; sourceTree = "<group>"; };
 		6B69353A29A56149003AC72D /* Int+orZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+orZero.swift"; sourceTree = "<group>"; };
@@ -234,8 +238,9 @@
 				6B050C8A29A1231600498782 /* String+asDouble.swift */,
 				6B050C8F29A282B500498782 /* String+asFloat.swift */,
 				6B050C8529A11A6100498782 /* String+asInt.swift */,
-				6B69353629A55E80003AC72D /* String+orEmpty.swift */,
 				6B69354629A569FE003AC72D /* String+onlyNumbers.swift */,
+				6B69353629A55E80003AC72D /* String+orEmpty.swift */,
+				6B23F1B32A339327005CAE71 /* String+random.swift */,
 				6B69354A29A56C31003AC72D /* String+removeNumbers.swift */,
 			);
 			path = String;
@@ -247,8 +252,9 @@
 				6B050C8C29A1231F00498782 /* String+asDoubleTests.swift */,
 				6B050C9129A2835100498782 /* String+asFloatTests.swift */,
 				6B050C8829A11B4E00498782 /* String+asIntTests.swift */,
-				6B69353829A55FD4003AC72D /* String+orEmptyTests.swift */,
 				6B69354829A56AE1003AC72D /* String+onlyNumbers.swift */,
+				6B69353829A55FD4003AC72D /* String+orEmptyTests.swift */,
+				6B23F1B52A339561005CAE71 /* String+randomTests.swift */,
 				6B69354C29A56C67003AC72D /* String+removeNumbersTests.swift */,
 			);
 			path = String;
@@ -376,6 +382,7 @@
 				6B69353B29A56149003AC72D /* Int+orZero.swift in Sources */,
 				6B231C0D29A3A5F0003AB518 /* Float+asInt.swift in Sources */,
 				6B050C8029A117BE00498782 /* Float+asString.swift in Sources */,
+				6B23F1B42A339327005CAE71 /* String+random.swift in Sources */,
 				6B050C9029A282B500498782 /* String+asFloat.swift in Sources */,
 				6B231C0529A3A386003AB518 /* Int+asFloat.swift in Sources */,
 				6B69354B29A56C31003AC72D /* String+removeNumbers.swift in Sources */,
@@ -389,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B23F1B62A339561005CAE71 /* String+randomTests.swift in Sources */,
 				6B050C8329A117F100498782 /* Float+asStringTests.swift in Sources */,
 				6B69354D29A56C67003AC72D /* String+removeNumbersTests.swift in Sources */,
 				6B050C7629A113C700498782 /* Int+asStringTests.swift in Sources */,
