@@ -4,7 +4,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/BasicsKit.svg?style=flat-square)](https://cocoapods.org/pods/BasicsKit)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
 
-![0.0.3](https://github.com/jnevesjunior/BasicsKit/raw/main/Doc/0.0.3.png)
+![0.0.4](https://github.com/jnevesjunior/BasicsKit/raw/main/Doc/0.0.4.png)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -63,6 +63,9 @@
     - [.asDouble](#asdouble-2)
   - [Float](#float-3)
     - [.asFloat](#asfloat-2)
+    - [.asFloat16](#asfloat16-2)
+    - [.asFloat32](#asfloat32-1)
+    - [.asFloat64](#asfloat64-1)
   - [String](#string-3)
     - [.asString](#asstring-2)
   - [Unwrap](#unwrap-3)
@@ -476,6 +479,69 @@ value.asFloat // 21.0
 
 let value: Int64 = 21
 value.asFloat // 21.0
+```
+
+### .asFloat16
+
+Returns a `Float16` initialized by converting self value
+
+```swift
+let value: Int = 21
+value.asFloat16 // 21.0
+
+let value: Int8 = 21
+value.asFloat16 // 21.0
+
+let value: Int16 = 21
+value.asFloat16 // 21.0
+
+let value: Int32 = 21
+value.asFloat16 // 21.0
+
+let value: Int64 = 21
+value.asFloat16 // 21.0
+```
+
+### .asFloat32
+
+Returns a `Float32` initialized by converting self value
+
+```swift
+let value: Int = 21
+value.asFloat32 // 21.0
+
+let value: Int8 = 21
+value.asFloat32 // 21.0
+
+let value: Int16 = 21
+value.asFloat32 // 21.0
+
+let value: Int32 = 21
+value.asFloat32 // 21.0
+
+let value: Int64 = 21
+value.asFloat32 // 21.0
+```
+
+### .asFloat64
+
+Returns a `Float64` initialized by converting self value
+
+```swift
+let value: Int = 21
+value.asFloat64 // 21.0
+
+let value: Int8 = 21
+value.asFloat64 // 21.0
+
+let value: Int16 = 21
+value.asFloat64 // 21.0
+
+let value: Int32 = 21
+value.asFloat64 // 21.0
+
+let value: Int64 = 21
+value.asFloat64 // 21.0
 ```
 
 ## String
