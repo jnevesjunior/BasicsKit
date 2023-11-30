@@ -100,7 +100,7 @@ $ gem install cocoapods
 To integrate BasicsKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'BasicsKit', '~> 0.0.4'
+pod 'BasicsKit', '~> 0.0.5'
 ```
 
 Then, run the following command:

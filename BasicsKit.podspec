@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BasicsKit"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "BasicsKit it's a set of shortcuts to improve daily productivity."
   
   spec.description  = <<-DESC
@@ -35,6 +35,9 @@ Pod::Spec.new do |spec|
   - Add .asFloat16 to parse Int/Int8/Int16/Int32/Int64
   - Add .asFloat32 to parse Int/Int8/Int16/Int32/Int64
   - Add .asFloat64 to parse Int/Int8/Int16/Int32/Int64
+
+  0.0.5:
+  - Add .random to String
                    DESC
 
   spec.homepage     = "https://github.com/jnevesjunior/BasicsKit"
