@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     /// Returns a `String` with random characters.
     ///
