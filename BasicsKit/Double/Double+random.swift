@@ -9,7 +9,7 @@ import Foundation
 
 public extension Double {
     
-    /// Returns a `Double` with random number.
+    /// Returns a `Double` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -20,7 +20,7 @@ public extension Double {
         .random(in: min...max)
     }
     
-    /// Returns a `Double` with random number.
+    /// Returns a `Double` with random numbers.
     static var random: Double {
         Self.random()
     }

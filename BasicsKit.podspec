@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BasicsKit"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "BasicsKit it's a set of shortcuts to improve daily productivity."
   
   spec.description  = <<-DESC
@@ -38,6 +38,11 @@ Pod::Spec.new do |spec|
 
   0.0.5:
   - Add .random to String
+
+  0.0.6:
+  - Add .random to Int/Int8/Int16/Int32/Int64
+  - Add .random to Float/Float16
+  - Add .random to Double
                    DESC
 
   spec.homepage     = "https://github.com/jnevesjunior/BasicsKit"

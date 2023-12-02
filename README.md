@@ -29,6 +29,9 @@
     - [.orEmpty](#orempty)
   - [.onlyNumbers](#onlynumbers)
   - [.removeNumbers](#removenumbers)
+  - [Random](#random)
+    - [.random](#random)
+    - [.random()](#random)
 - [Double](#double-1)
   - [Float](#float-1)
     - [.asFloat](#asfloat-1)
@@ -45,6 +48,9 @@
     - [.asString](#asstring)
   - [Unwrap](#unwrap-1)
     - [.orZero](#orzero)
+  - [Random](#random-1)
+    - [.random](#random-1)
+    - [.random()](#random-1)
 - [Float](#float-2)
   - [Double](#double-2)
     - [.asDouble](#asdouble-1)
@@ -58,6 +64,9 @@
     - [.asString](#asstring-1)
   - [Unwrap](#unwrap-2)
     - [.orZero](#orzero-1)
+  - [Random](#random-2)
+    - [.random](#random-2)
+    - [.random()](#random-2)
 - [Int (Int, Int8, Int16, Int32, Int64)](#int-int-int8-int16-int32-int64)
   - [Double](#double-3)
     - [.asDouble](#asdouble-2)
@@ -70,6 +79,9 @@
     - [.asString](#asstring-2)
   - [Unwrap](#unwrap-3)
     - [.orZero](#orzero-2)
+  - [Random](#random-3)
+    - [.random](#random-3)
+    - [.random()](#random-3)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -216,6 +228,28 @@ let value: String = "qwerty123"
 value.removeNumbers // "qwerty"
 ```
 
+## Random
+### .random 
+
+Returns a new `String` with 10 random characters.
+
+```swift
+String.random // "yhj234g1n9"
+```
+### .random()
+
+Returns a new `String` with random characters.
+
+Parameter `count`: Number of characters.
+Parameter `withNumbers`: If `true` the result string can contain numbers.
+Parameter `withSpecialCharacters`: If `true` the result string can special characters.
+
+```swift
+String.random(count: 5) // "m6xas"
+String.random(count: 5, withNumbers: false) // "aopwe"
+String.random(count: 5, withNumbers: true, withSpecialCharacters: true) // "a!o8b"
+```
+
 # Double
 
 ## Float
@@ -322,6 +356,25 @@ value.orZero // 21.0
 
 let value: Double? = nil
 value.orZero // 0.0
+```
+
+## Random
+### .random 
+
+Returns a new `Double` with random numbers.
+
+```swift
+Double.random // 1321
+```
+### .random()
+
+Returns a new `Double` with random numbers.
+
+Parameter `min`: Minimum number.
+Parameter `max`: Maximum number.
+
+```swift
+Double.random(min: 5, max: 7) // 5 or 6 or 7
 ```
 
 # Float
@@ -433,6 +486,27 @@ value.orZero // 21.0
 
 let value: Float16? = nil
 value.orZero // 0.0
+```
+
+## Random
+### .random 
+
+Returns a new `Float` with random numbers.
+
+```swift
+Float.random // 1321
+Float16.random // 1321
+```
+### .random()
+
+Returns a new `Float` with random numbers.
+
+Parameter `min`: Minimum number.
+Parameter `max`: Maximum number.
+
+```swift
+Float.random(min: 5, max: 7) // 5 or 6 or 7
+Float16.random(min: 5, max: 7) // 5 or 6 or 7
 ```
 
 # Int (Int, Int8, Int16, Int32, Int64)
@@ -596,4 +670,31 @@ let value: Int64? = 21
 value.orZero // "21"
 let value: Int64? = nil
 value.orZero // "0"
+```
+
+## Random
+### .random 
+
+Returns a new `Int` with random numbers.
+
+```swift
+Int.random // 1321
+Int8.random // 1321
+Int16.random // 1321
+Int32.random // 1321
+Int64.random // 1321
+```
+### .random()
+
+Returns a new `Int` with random numbers.
+
+Parameter `min`: Minimum number.
+Parameter `max`: Maximum number.
+
+```swift
+Int.random(min: 5, max: 7) // 5 or 6 or 7
+Int8.random(min: 5, max: 7) // 5 or 6 or 7
+Int16.random(min: 5, max: 7) // 5 or 6 or 7
+Int32.random(min: 5, max: 7) // 5 or 6 or 7
+Int64.random(min: 5, max: 7) // 5 or 6 or 7
 ```

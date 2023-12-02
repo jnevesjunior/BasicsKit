@@ -9,7 +9,7 @@ import Foundation
 
 public extension Float {
     
-    /// Returns a `Float` with random number.
+    /// Returns a `Float` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -20,7 +20,7 @@ public extension Float {
         .random(in: min...max)
     }
     
-    /// Returns a `Float` with random number.
+    /// Returns a `Float` with random numbers.
     static var random: Float {
         Self.random()
     }
@@ -29,7 +29,7 @@ public extension Float {
 @available(iOS 14.0, *)
 public extension Float16 {
     
-    /// Returns a `Float16` with random number.
+    /// Returns a `Float16` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -40,7 +40,7 @@ public extension Float16 {
         .random(in: min...max)
     }
     
-    /// Returns a `Float16` with random number.
+    /// Returns a `Float16` with random numbers.
     static var random: Float16 {
         Self.random()
     }

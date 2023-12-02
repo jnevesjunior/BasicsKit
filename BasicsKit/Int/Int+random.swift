@@ -9,7 +9,7 @@ import Foundation
 
 public extension Int {
     
-    /// Returns a `Int` with random number.
+    /// Returns a `Int` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -20,7 +20,7 @@ public extension Int {
         .random(in: min...max)
     }
     
-    /// Returns a `Int` with random number.
+    /// Returns a `Int` with random numbers.
     static var random: Int {
         Self.random()
     }
@@ -28,7 +28,7 @@ public extension Int {
 
 public extension Int8 {
     
-    /// Returns a `Int8` with random number.
+    /// Returns a `Int8` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -39,7 +39,7 @@ public extension Int8 {
         .random(in: min...max)
     }
     
-    /// Returns a `Int8` with random number.
+    /// Returns a `Int8` with random numbers.
     static var random: Int8 {
         Self.random()
     }
@@ -47,7 +47,7 @@ public extension Int8 {
 
 public extension Int16 {
     
-    /// Returns a `Int16` with random number.
+    /// Returns a `Int16` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -58,7 +58,7 @@ public extension Int16 {
         .random(in: min...max)
     }
     
-    /// Returns a `Int16` with random number.
+    /// Returns a `Int16` with random numbers.
     static var random: Int16 {
         Self.random()
     }
@@ -66,7 +66,7 @@ public extension Int16 {
 
 public extension Int32 {
     
-    /// Returns a `Int32` with random number.
+    /// Returns a `Int32` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -77,7 +77,7 @@ public extension Int32 {
         .random(in: min...max)
     }
     
-    /// Returns a `Int32` with random number.
+    /// Returns a `Int32` with random numbers.
     static var random: Int32 {
         Self.random()
     }
@@ -85,7 +85,7 @@ public extension Int32 {
 
 public extension Int64 {
     
-    /// Returns a `Int64` with random number.
+    /// Returns a `Int64` with random numbers.
     ///
     /// - Parameter min: Minimum number.
     /// - Parameter max: Maximum number.
@@ -96,7 +96,7 @@ public extension Int64 {
         .random(in: min...max)
     }
     
-    /// Returns a `Int64` with random number.
+    /// Returns a `Int64` with random numbers.
     static var random: Int64 {
         Self.random()
     }

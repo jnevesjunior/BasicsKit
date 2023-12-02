@@ -13,7 +13,7 @@ public extension String {
     ///
     /// - Parameter count: Number of characters.
     /// - Parameter withNumbers: If `true` the result string can contain numbers.
-    /// - Parameter withSpecialCharacters: If `true` the result string can special characters/
+    /// - Parameter withSpecialCharacters: If `true` the result string can special characters.
     static func random(
         count: Int = 10,
         withNumbers: Bool = true,
