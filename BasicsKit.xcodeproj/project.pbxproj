@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D69DFB52B1B6EBF00A69B22 /* Float+randomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69DFB42B1B6EBF00A69B22 /* Float+randomTests.swift */; };
+		2D69DFB72B1B6FFC00A69B22 /* Double+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69DFB62B1B6FFC00A69B22 /* Double+random.swift */; };
+		2D69DFB92B1B709300A69B22 /* Double+randomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69DFB82B1B709300A69B22 /* Double+randomTests.swift */; };
 		2D9CB3352B1A2ADB003734C2 /* Float+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CB3342B1A2ADB003734C2 /* Float+random.swift */; };
 		2DBB55782B193D1D00395026 /* Int+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB55772B193D1D00395026 /* Int+random.swift */; };
 		2DBB557A2B1941E200395026 /* Int+randomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB55792B1941E200395026 /* Int+randomTests.swift */; };
@@ -66,6 +68,8 @@
 
 /* Begin PBXFileReference section */
 		2D69DFB42B1B6EBF00A69B22 /* Float+randomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+randomTests.swift"; sourceTree = "<group>"; };
+		2D69DFB62B1B6FFC00A69B22 /* Double+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+random.swift"; sourceTree = "<group>"; };
+		2D69DFB82B1B709300A69B22 /* Double+randomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+randomTests.swift"; sourceTree = "<group>"; };
 		2D9CB3342B1A2ADB003734C2 /* Float+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+random.swift"; sourceTree = "<group>"; };
 		2DBB55772B193D1D00395026 /* Int+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+random.swift"; sourceTree = "<group>"; };
 		2DBB55792B1941E200395026 /* Int+randomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+randomTests.swift"; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 				6B231BF829A2FA06003AB518 /* Double+asInt.swift */,
 				6B050C7929A116B900498782 /* Double+asString.swift */,
 				6B69354229A5650F003AC72D /* Double+orZero.swift */,
+				2D69DFB62B1B6FFC00A69B22 /* Double+random.swift */,
 			);
 			path = Double;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				6B231BFA29A2FA6E003AB518 /* Double+asIntTests.swift */,
 				6B050C7C29A116E100498782 /* Double+asStringTests.swift */,
 				6B69354429A565C8003AC72D /* Double+orZeroTests.swift */,
+				2D69DFB82B1B709300A69B22 /* Double+randomTests.swift */,
 			);
 			path = Double;
 			sourceTree = "<group>";
@@ -390,6 +396,7 @@
 				6B050C7A29A116B900498782 /* Double+asString.swift in Sources */,
 				2D9CB3352B1A2ADB003734C2 /* Float+random.swift in Sources */,
 				2DBB55782B193D1D00395026 /* Int+random.swift in Sources */,
+				2D69DFB72B1B6FFC00A69B22 /* Double+random.swift in Sources */,
 				6B69354729A569FE003AC72D /* String+onlyNumbers.swift in Sources */,
 				6B050C5D29A1108600498782 /* BasicsKit.docc in Sources */,
 				6B231BFD29A2FD0D003AB518 /* Double+asFloat.swift in Sources */,
@@ -417,6 +424,7 @@
 				6B050C7629A113C700498782 /* Int+asStringTests.swift in Sources */,
 				6B050C8D29A1231F00498782 /* String+asDoubleTests.swift in Sources */,
 				6B69354929A56AE2003AC72D /* String+onlyNumbers.swift in Sources */,
+				2D69DFB92B1B709300A69B22 /* Double+randomTests.swift in Sources */,
 				6B050C8929A11B4E00498782 /* String+asIntTests.swift in Sources */,
 				6B231C0F29A3A63B003AB518 /* Float+asIntTests.swift in Sources */,
 				6B231C0B29A3A4A4003AB518 /* Float+asDoubleTests.swift in Sources */,

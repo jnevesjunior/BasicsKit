@@ -45,22 +45,3 @@ public extension Float16 {
         Self.random()
     }
 }
-
-public extension Float64 {
-    
-    /// Returns a `Float64` with random number.
-    ///
-    /// - Parameter min: Minimum number.
-    /// - Parameter max: Maximum number.
-    static func random(
-        min: Float64 = 0,
-        max: Float64 = .init(Int64.max)
-    ) -> Float64 {
-        .random(in: min...max)
-    }
-    
-    /// Returns a `Float64` with random number.
-    static var random: Float64 {
-        Self.random()
-    }
-}
